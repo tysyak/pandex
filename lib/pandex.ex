@@ -19,7 +19,7 @@ defmodule Pandex do
   | markdown_strict    | json               |
   | rst                | latex              |
   | textile            | man                |
-  |                    | markdown           |
+  | org                | markdown           |
   |                    | markdown_github *  |
   |                    | markdown_mmd       |
   |                    | markdown_phpextra  |
@@ -65,7 +65,8 @@ defmodule Pandex do
     "markdown_phpextra",
     "markdown_strict",
     "rst",
-    "textile"
+    "textile",
+    "org"
   ]
 
   @writers [
