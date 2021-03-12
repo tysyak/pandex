@@ -18,7 +18,7 @@ defmodule Pandex.Mixfile do
   end
 
   def application do
-    [applications: [:logger]]
+    [applications: [:logger], extra_applications: [:crypto]]
   end
 
   defp description do
